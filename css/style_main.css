@@ -1,0 +1,195 @@
+html,
+body {
+    height: 100%;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#topOfScreen {
+    margin-top: 5em;
+}
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#footer {
+    margin-top: 25px;
+}
+
+.question {
+    color: #9c9d9f;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 3;
+    border-radius: 15px;
+}
+
+.bg-img1 {
+    height: 100vh;
+}
+
+article {
+    margin-top: 15px;
+    max-height: 350px;
+}
+
+.bg-img5 {
+    height: 20vh;
+    background-image: url(../img/background/screw-1924173-min.jpg);
+}
+
+.bg-img4 {
+    height: 66vh;
+    background-image: url("http://lorempixel.com/g/1920/1280/technics");
+}
+
+.big-features {
+    display: block;
+    font-size: 8vh;
+    margin-bottom: 1vh;
+}
+
+.bg-img1,
+.bg-img2,
+.bg-img3,
+.bg-img4,
+.bg-img5 {
+    display: block;
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.bg-img2 {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Technology/full%20page/1.jpg");
+    height: 400px;
+}
+
+.bg-img3 {
+    background-image: url("../img/background/screw-1924173-min.jpg");
+    height: 400px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #3E4551;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #3E4551;
+    }
+}
+
+.fb {
+    background-color: #3B5998;
+}
+
+.tw {
+    background-color: #55ACEE;
+}
+
+.gp {
+    background-color: #DD4B39;
+}
+
+.pin {
+    background-color: #CB2027;
+}
+
+.li {
+    background-color: #0077B5;
+}
+
+.di {
+    background-color: #7289DA;
+}
+
+.social i {
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+.specs:not(.top-nav-collapse) {
+    box-shadow: none;
+}
+
+.sucks {
+    color: #4B515D;
+    border-color: #4B515D;
+}
